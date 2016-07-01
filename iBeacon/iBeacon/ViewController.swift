@@ -40,6 +40,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate,KTKBeaconManage
         objectArray.removeAllObjects()
         beaconsDictionary.removeAllObjects()
         isfirstTime  = false
+        
         self.performSegueWithIdentifier("packates", sender: self)
     }
     

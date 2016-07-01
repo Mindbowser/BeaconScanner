@@ -17,7 +17,6 @@ class PackatesTableView: UIViewController,UITableViewDelegate,UITableViewDataSou
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
         cellDataArray = ["10.0","20.0","30.0","40.0"]
     }
     
